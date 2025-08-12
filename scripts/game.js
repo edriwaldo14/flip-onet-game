@@ -1324,7 +1324,8 @@ class Game extends Phaser.Scene {
     this.popup.clear(true, true);
     if (playerData.score > best_score) {
       best_score = playerData.score;
-      localStorage.setItem("redfoc_onet_best", best_score);
+      // localStorage.setItem("redfoc_onet_best", best_score);
+      localStorage.setItem("gimcraft_onet_best", best_score);
     }
     this.bringPieceToBack();
     this.state = "gameover";
