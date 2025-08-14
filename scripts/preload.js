@@ -70,7 +70,7 @@ class Load extends Phaser.Scene {
       frameHeight: 90,
     });
     // this.load.spritesheet("object", "images/object-1.png", {
-    this.load.spritesheet("object", "images/object-1.png", {
+    this.load.spritesheet("object", "images/object-5.png", {
       frameWidth: 80,
       frameHeight: 80,
     });
